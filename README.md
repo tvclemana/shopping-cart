@@ -1,4 +1,4 @@
-# React + Vite
+# Vite + React
 # Shopping Cart
 
 A simple shopping cart application built with React and Vite, using the Platzi Fake Store API. This app allows users to browse products, add them to a cart, view the cart summary, and proceed to checkout.
