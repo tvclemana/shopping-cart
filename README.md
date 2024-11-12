@@ -15,7 +15,7 @@ A simple and efficient shopping cart application built with **React** and **Vite
 - **Detailed Cart Summary**: See a summary with subtotal, tax, and total calculations.
 - **Checkout**: Complete your purchase with a simple payment confirmation.
 
-## Getting Started
+## Getting Started we
 
 Follow these instructions to set up and run the project on your local machine.
 
@@ -60,7 +60,7 @@ Ensure you have **Node.js** and **npm** installed on your machine. Download them
 | [**Vite**](https://vitejs.dev/)                  | Fast frontend build tool                        |
 | [**React**](https://reactjs.org/)                | JavaScript library for building user interfaces |
 | [**React Router DOM**](https://reactrouter.com/) | Declarative routing for React applications      |
-|  |
+|                                                  |
 
 ```bash
 _Project Structure_
@@ -94,3 +94,5 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Happy Coding!🫡
