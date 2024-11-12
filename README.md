@@ -23,7 +23,7 @@ Ensure you have **Node.js** and **npm** installed on your machine. Download them
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/<your_github_username>/shopping-cart.git
+   git clone https://github.com/VibeSiVive/shopping-cart.git
 
    ```
 
