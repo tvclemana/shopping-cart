@@ -2,126 +2,149 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .product-list,
 .cart {
-  background-color: #f8f8f8;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for content areas */
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow for minimalist look */
 }
 
 .product-list {
-  width: 60%;
+  width: 72%; /* Slightly larger product list */
 }
 
 .cart {
-  width: 35%;
+  width: 26%; /* Slightly smaller cart */
+  max-height: 750px;
+  overflow-y: auto;
 }
 
 /* Product List */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .product-item {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 10px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  padding: 25px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger hover shadow */
 }
 
 .product-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  margin-bottom: 10px;
+  border-radius: 8px; /* Rounded corners for a cleaner look */
+  margin-bottom: 15px;
 }
 
 .product-item h4 {
-  font-size: 1rem;
-  margin: 10px 0;
+  font-size: 1.3rem;
+  margin: 15px 0;
+  color: #333; /* Darker text for readability */
 }
 
 .product-item p {
-  font-size: 0.9rem;
-  color: #555;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
 }
 
 .product-item button {
-  background-color: #333;
-  color: #fff;
-  padding: 8px 12px;
+  background-color: #d1d1d1; /* Soft gray for a minimalist button */
+  color: #333;
+  padding: 12px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: background-color 0.3s;
+  width: 100%;
 }
 
 .product-item button:hover {
-  background-color: #555;
+  background-color: #b0b0b0; /* Slightly darker gray on hover */
 }
 
 /* Cart */
 .cart h2 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  color: #333;
 }
 
 .cart-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
-  padding: 10px;
-  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fafafa;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .cart-item button {
-  background-color: #333;
-  color: #fff;
-  padding: 5px;
+  background-color: #f1f1f1; /* Light gray for remove button */
+  color: #333;
+  padding: 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
-  margin: 0 5px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
 }
 
 .cart-item button:hover {
-  background-color: #555;
+  background-color: #e0e0e0; /* Slightly darker gray */
 }
 
 /* Cart Summary */
 .cart-summary {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .cart-summary p {
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
 
 .cart-summary .total {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .cart-summary button {
-  background-color: #ff5252;
+  background-color: #28a745; /* Minimalist green for checkout button */
   color: #fff;
-  padding: 10px;
+  padding: 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 25px;
+  transition: background-color 0.3s;
 }
 
 .cart-summary button:hover {
-  background-color: #ff7272;
+  background-color: #218838; /* Darker green for hover */
 }
