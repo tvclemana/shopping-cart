@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Vite + React
-# Shopping Cart
-=======
 # Shopping Cart Application
->>>>>>> 715e406 (good looks)
 
 A simple and efficient shopping cart application built with **React** and **Vite**. This app enables users to browse products, add items to a cart, view a cart summary, and proceed to checkout. The project leverages the **Platzi Fake Store API** for product data.
 
@@ -15,7 +10,7 @@ A simple and efficient shopping cart application built with **React** and **Vite
 - **Detailed Cart Summary**: See a summary with subtotal, tax, and total calculations.
 - **Checkout**: Complete your purchase with a simple payment confirmation.
 
-## Getting Started we
+## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
 
@@ -28,7 +23,7 @@ Ensure you have **Node.js** and **npm** installed on your machine. Download them
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/vibesivive/shopping-cart.git
+   git clone https://github.com/<your_github_username>/shopping-cart.git
 
    ```
 
@@ -95,4 +90,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# Happy Coding!🫡
+# Happy Coding! mwa 🫡
