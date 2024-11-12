@@ -1,5 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function CheckoutPage({ cartItems, resetCart }) {
   const navigate = useNavigate();
@@ -9,9 +9,9 @@ function CheckoutPage({ cartItems, resetCart }) {
   );
 
   const handlePay = () => {
-    alert('Payment Successful');
+    alert("Payment Successful");
     resetCart();
-    navigate('/'); // Redirect to the main page
+    navigate("/"); // Redirect to the main page
   };
 
   return (
