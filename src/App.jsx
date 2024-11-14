@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import CheckoutPage from "./pages/CheckoutPage";
-import Header from "./components/Header"; // Import Header
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import CheckoutPage from './pages/CheckoutPage';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -39,27 +38,25 @@ function App() {
   };
 
   return (
-    <div>
-      <Header /> {/* Add the Header here */}
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <HomePage
-              cartItems={cartItems}
-              addToCart={addToCart}
-              updateQuantity={updateQuantity}
-              removeFromCart={removeFromCart}
-            />
-          }
-        />
-        <Route
-          path="/checkout"
-          element={<CheckoutPage cartItems={cartItems} resetCart={resetCart} />}
-        />
-      </Routes>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <HomePage
+            cartItems={cartItems}
+            addToCart={addToCart}
+            updateQuantity={updateQuantity}
+            removeFromCart={removeFromCart}
+          />
+        }
+      />
+      <Route
+        path="/checkout"
+        element={<CheckoutPage cartItems={cartItems} resetCart={resetCart} />}
+      />
+    </Routes>
   );
 }
 
 export default App;
+
