@@ -1,14 +1,13 @@
-# Shopping Cart Application
+# Shopping Cart 
 
-A simple and efficient shopping cart application built with **React** and **Vite**. This app enables users to browse products, add items to a cart, view a cart summary, and proceed to checkout. The project leverages the **Platzi Fake Store API** for product data.
+This is a Shopping Cart Application built with React + Vite that allows users to add to their cart while seeing the accumulated total price of their selections and also allows them to search for products.
 
 ## Features
 
-- **Product Search**: Search for products by name to find what you need quickly.
-- **Add to Cart**: Add selected products to your shopping cart.
-- **Cart Management**: View and adjust the quantity of items in your cart.
-- **Detailed Cart Summary**: See a summary with subtotal, tax, and total calculations.
-- **Checkout**: Complete your purchase with a simple payment confirmation.
+- Add items to the cart
+- Update item quantities
+- Remove items from the cart
+- Checkout and reset the cart
 
 ## Getting Started
 
@@ -23,7 +22,7 @@ Ensure you have **Node.js** and **npm** installed on your machine. Download them
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/VibeSiVive/shopping-cart.git
+   git clone https://github.com/tvclemana/shopping-cart.git
 
    ```
 
@@ -50,11 +49,9 @@ Ensure you have **Node.js** and **npm** installed on your machine. Download them
 
 ## Libraries and Tools Used
 
-| Library / Tool                                   | Description                                     |
-| ------------------------------------------------ | ----------------------------------------------- |
-| [**Vite**](https://vitejs.dev/)                  | Fast frontend build tool                        |
-| [**React**](https://reactjs.org/)                | JavaScript library for building user interfaces |
-| [**React Router DOM**](https://reactrouter.com/) | Declarative routing for React applications      |
+- Vite : Fast Frontend Build Tool
+- React : JavaScript Library for building UI
+- React ROUTER DOM : Declarative Routing for React applications
 |                                                  |
 
 ```bash
@@ -79,15 +76,24 @@ shopping-cart/
 └── assets/ # Any static assets like images or icons
 ```
 
-API
-This project uses the Platzi Fake Store API to fetch product data.
+# Shopping Cart
 
-![Shopping Cart Screenshot](Shopping-cart.png)
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A shopping cart application built with React and Vite, using the Platzi Fake Store API to fetch product data.
 
-Currently, two official plugins are available:
+![Shopping Cart Screenshot](shoppingcart-samplepic.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## API
 
-# Happy Coding! mwa 🫡
+This project uses the [Platzi Fake Store API](https://fakestoreapi.com/) to retrieve product information, allowing users to browse, add, and manage items in the cart.
+
+## Project Setup
+
+This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and includes some ESLint rules for code quality.
+
+## Official Plugins Used
+
+This project includes support for two official plugins for React in Vite:
+
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)**: Uses [Babel](https://babeljs.io/) to enable Fast Refresh in development mode.
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**: Uses [SWC](https://swc.rs/) for Fast Refresh, offering an alternative to Babel with faster compilation.
+
